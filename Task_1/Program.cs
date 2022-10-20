@@ -18,7 +18,7 @@ void PrintArray(int[] array)
   {
     Console.Write($"{array[i]} ");
   }
-  Console.Write($"] ");
+  Console.Write($"] -> ");
 }
 int CountElement(int[] array)
 {
@@ -33,4 +33,4 @@ int CountElement(int[] array)
 int[] arr = CreateArrayRndInt(100, 1000);
 PrintArray(arr);
 int counts = CountElement(arr);
-Console.WriteLine($"-> {counts}");
+Console.WriteLine(counts);
